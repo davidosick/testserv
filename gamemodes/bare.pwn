@@ -20,7 +20,7 @@ public OnPlayerConnect(playerid)
 
 CMD:test(playerid)
 {
-	SendClientMessage(plyerid, -1, "Привет!");
+	SendClientMessage(playerid, -1, "Привет!");
 	return 1;
 }
 
@@ -68,7 +68,7 @@ public OnGameModeInit()
 
 	return 1;
 }
-
+/*
 strtok(const string[], &index)
 {
 	new length = strlen(string);
@@ -86,4 +86,4 @@ strtok(const string[], &index)
 	}
 	result[index - offset] = EOS;
 	return result;
-}
+}*/
