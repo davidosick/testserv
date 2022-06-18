@@ -1,6 +1,7 @@
 #include <a_samp>
 #include <core>
 #include <float>
+#include <Pawn.CMD>
 
 #pragma tabsize 0
 
@@ -17,16 +18,14 @@ public OnPlayerConnect(playerid)
 	return 1;
 }
 
+CMD:test(playerid)
+{
+	SendClientMessage(plyerid, -1, "Привет!");
+	return 1;
+}
+
 public OnPlayerCommandText(playerid, cmdtext[])
 {
-	new idx;
-	new cmd[256];
-	
-	cmd = strtok(cmdtext, idx);
-
-	if(strcmp(cmd, "/yadayada", true) == 0) {
-    	return 1;
-	}
 
 	return 0;
 }
