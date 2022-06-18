@@ -7,7 +7,7 @@
 main()
 {
 	print("\n----------------------------------");
-	print("  Bare Script\n");
+	print("  Bare Script MYEDIT\n");
 	print("----------------------------------\n");
 }
 
