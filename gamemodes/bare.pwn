@@ -9,7 +9,7 @@
 main()
 {
 	print("\n----------------------------------");
-	print("  Bare Script MYEDIT\n");
+	print("  Bare Script MYEDIT 2\n");
 	print("----------------------------------\n");
 }
 
@@ -21,7 +21,7 @@ public OnPlayerConnect(playerid)
 
 CMD:test(playerid)
 {
-	SendClientMessage(playerid, -1, "Привет!");
+	SendClientMessage(playerid, -1, "пїЅпїЅпїЅпїЅпїЅпїЅ!");
 	return 1;
 }
 
