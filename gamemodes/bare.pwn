@@ -2,6 +2,7 @@
 #include <core>
 #include <float>
 #include <Pawn.CMD>
+#define SSCANF_NO_NICE_FEATURES
 #include <sscanf2>
 
 #pragma tabsize 0
