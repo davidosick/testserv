@@ -2,6 +2,7 @@
 #include <core>
 #include <float>
 #include <Pawn.CMD>
+#include <streamer>
 #define SSCANF_NO_NICE_FEATURES
 #include <sscanf2>
 
@@ -18,7 +19,6 @@ main()
 	print("----------------------------------\n");
 }
 
-new art = -1, shot,  Float:shotDist0, Float:shotDist, Float:z0;
 new str[144];
 
 stock Float:GetDistanceBetweenPoints(Float:X, Float:Y, Float:Z, Float:PointX, Float:PointY, Float:PointZ) return floatsqroot(floatadd(floatadd(floatpower(floatsub(X, PointX), 2.0), floatpower(floatsub(Y, PointY), 2.0)), floatpower(floatsub(Z, PointZ), 2.0))); 
@@ -32,32 +32,25 @@ public OnPlayerConnect(playerid)
 
 CMD:test(playerid, params[])
 {
-	sscanf(params, "d", params[0]);
-	format(str, 144, "%f",z0+((-shotDist*shotDist+shotDist0*shotDist)/params[0]));
-	new Float:x, Float:y, Float:z;
-	GetPlayerPos(playerid, x,y,z);
-	SetPlayerPos(0, x,y,z0+((-shotDist*shotDist+shotDist0*shotDist)/params[0]));
-	scm(0, -1, str);
+
 }
 
+/*
+new art = -1, shot,  Float:shotDist0, Float:z0, Float:x0, Float:y0, dustId, bool:per;
 CMD:art(playerid)
 {
 	if(art != -1) return SendClientMessage(playerid, -1, "јрта уже есть");
 	new Float:x,Float:y,Float:z,Float:fa;
 	GetPlayerFacingAngle(playerid,fa);
 	GetPlayerPos(playerid, x,y,z);
+	SetPlayerPos(playerid, x,y,z+3);
+	z = z - 0.4;
 	CreateObject(2063, x,y,z,  0, 0, fa);
 	art = CreateObject(2064, x,y,z,  0, 25, fa);
 	shot = CreateObject(2065, x,y,z,  0, 25, fa);
 	return 1;
 }
 
-CMD:deltest(playerid)
-{
-	DestroyObject(art);
-	art = -1;
-	return 1;
-}
 
 CMD:fire(playerid, params[])
 {
@@ -71,8 +64,8 @@ CMD:fire(playerid, params[])
 	if(sscanf(params, "dd", speed, A)) return SendClientMessage(playerid, -1, "speed G");
 
 	REALROT = -(ry-25);
-	format(str, 144, "REALROT %f", REALROT);
-	scm(playerid, -1, str);
+	//format(str, 144, "REALROT %f", REALROT);
+	//scm(playerid, -1, str);
 	B = floattan(REALROT, degrees) * 2 * speed * speed * floatcos(REALROT, degrees) * floatcos(REALROT, degrees);
 	//format(str, 144, "B %f", B);
 	//scm(playerid, -1, str);
@@ -80,11 +73,16 @@ CMD:fire(playerid, params[])
 	//format(str, 144, "dist %f", dist);
 	//scm(playerid, -1, str);
 
+	dustId = CreateObject(18713, x,y,z,0,0,0);
+
 	shotDist0 = dist;
 	z0 = z;
+	x0 = x;
+	y0 = y;
 	new Float:halfdist = dist/2;
-	MoveObject(shot, x-floatsin(-rz,degrees)*(dist/2), y-floatcos(-rz,degrees)*(dist/2), z+(-halfdist*halfdist+shotDist0*halfdist), 10);
-
+	MoveObject(art, x-floatsin(-rz,degrees)*(-1), y-floatcos(-rz,degrees)*(-1), (z-0.5), 9);
+	per = true;
+	MoveObject(shot, x-floatsin(-rz,degrees)*(dist/2), y-floatcos(-rz,degrees)*(dist/2), (z+((-halfdist*halfdist+shotDist0*halfdist)/250)), 75);
 	return 1;
 }
 
@@ -102,8 +100,14 @@ public OnObjectMoved(objectid)
 			DestroyObject(shot);
 			return 1;
 		}
-		MoveObject(shot, x-floatsin(-rz,degrees)*shotDist0, y-floatcos(-rz,degrees)*shotDist0, z0, 10);
+		MoveObject(shot, x-floatsin(-rz,degrees)*shotDist0, y-floatcos(-rz,degrees)*shotDist0, z0, 75);
+		DestroyObject(dustId);
 		shotDist0 = 0;
+	}
+	if(objectid == art && per == true)
+	{
+		MoveObject(art, x0, y0, z0, 9);
+		per = false;
 	}
 	return 1;
 }
@@ -126,7 +130,7 @@ CMD:rot(playerid, params[])
 	SetObjectRot(art, rx,ry,rz);
 	SetObjectRot(shot, rx,ry,rz);
 	return 1;
-}
+}*/
 
 public OnPlayerCommandText(playerid, cmdtext[])
 {
