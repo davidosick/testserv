@@ -5,6 +5,10 @@
 #define SSCANF_NO_NICE_FEATURES
 #include <sscanf2>
 
+#define scm SendClientMessage
+
+
+
 #pragma tabsize 0
 
 main()
@@ -14,7 +18,8 @@ main()
 	print("----------------------------------\n");
 }
 
-new art = -1;
+new art = -1, shot, shotDist, Float:shotDist0, Float:z0;
+new str[144];
 
 public OnPlayerConnect(playerid)
 {
@@ -22,13 +27,25 @@ public OnPlayerConnect(playerid)
 	return 1;
 }
 
-CMD:test(playerid)
+CMD:test(playerid, params[])
+{
+	sscanf(params, "d", params[0]);
+	format(str, 144, "%f",z0+((-shotDist*shotDist+shotDist0*shotDist)/params[0]));
+	new Float:x, Float:y, Float:z;
+	GetPlayerPos(playerid, x,y,z);
+	SetPlayerPos(0, x,y,z0+((-shotDist*shotDist+shotDist0*shotDist)/params[0]));
+	scm(0, -1, str);
+}
+
+CMD:art(playerid)
 {
 	if(art != -1) return SendClientMessage(playerid, -1, "Арта уже есть");
 	new Float:x,Float:y,Float:z,Float:fa;
 	GetPlayerFacingAngle(playerid,fa);
 	GetPlayerPos(playerid, x,y,z);
-	art = CreateObject(2064, x,y,z,  0, 0, fa);
+	CreateObject(2063, x,y,z,  0, 0, fa);
+	art = CreateObject(2064, x,y,z,  0, 25, fa);
+	shot = CreateObject(2065, x,y,z,  0, 25, fa);
 	return 1;
 }
 
@@ -41,19 +58,71 @@ CMD:deltest(playerid)
 
 CMD:fire(playerid, params[])
 {
-	new Float:mnCos, Float:mnSin,  Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz;
+	new Float:dist,  Float:x, Float:y, Float:z, Float:ry, Float:rx, Float:rz;
+	new Float:B, A, Float:REALROT, speed;
 	GetObjectRot(art, rx, ry, rz);
 	GetObjectPos(art, x, y, z);
-	if(sscanf(params, "ff", mnCos, mnSin)) return SendClientMessage(playerid, -1, "Неверный ввод");
-	CreateExplosion(x+floatsin(rx)*mnSin,y+floatcos(ry)*mnCos,z, 0, 1);
+	rz = rz+90;
+
+	//                       60   10
+	if(sscanf(params, "dd", speed, A)) return SendClientMessage(playerid, -1, "speed G");
+
+	REALROT = -(ry-25);
+	format(str, 144, "REALROT %f", REALROT);
+	scm(playerid, -1, str);
+	B = floattan(REALROT, degrees) * 2 * speed * speed * floatcos(REALROT, degrees) * floatcos(REALROT, degrees);
+	format(str, 144, "B %f", B);
+	scm(playerid, -1, str);
+	dist = -((-B-B)/2*A)/100;
+	format(str, 144, "dist %f", dist);
+	scm(playerid, -1, str);
+
+	shotDist = 0;
+	shotDist0 = dist;
+	z0 = z;
+	MoveObject(shot, x-floatsin(-rz,degrees)*3, y-floatcos(-rz,degrees)*3, z+(REALROT/20), 100);
+
+	//CreateExplosion(x-floatsin(-rz,degrees)*dist,y-floatcos(-rz,degrees)*dist,z, 0, 1);
 	return 1;
+}
+
+public OnObjectMoved(objectid)
+{
+	if(objectid == shot)
+	{
+		shotDist++;
+		new Float:x, Float:y, Float:z, Float:ry, Float:rx, Float:rz;
+		GetObjectRot(shot, rx, ry, rz);
+		GetObjectPos(shot, x, y, z);
+		if(shotDist >= shotDist0)
+		{
+			CreateExplosion(x,y,z, 0, 1);
+			DestroyObject(shot);
+			return 1;
+		}
+		MoveObject(shot, x-floatsin(-rz,degrees)*shotDist, y-floatcos(-rz,degrees)*shotDist, z0+((-shotDist*shotDist+shotDist0*shotDist)/40), 3);
+		SetPlayerPos(0, x-floatsin(-rz,degrees)*shotDist, y-floatcos(-rz,degrees)*shotDist, z0+((-shotDist*shotDist+shotDist0*shotDist)/40));
+	}
+	return 1;
+}
+
+CMD:veh(playerid, params[])
+{
+	sscanf(params, "d", params[0]);
+	new Float:x,Float:y,Float:z,Float:fa;
+	GetPlayerFacingAngle(playerid,fa);
+	GetPlayerPos(playerid, x,y,z);
+	return CreateVehicle(params[0], x, y, z, fa, 0, 0, 0);
 }
 
 CMD:rot(playerid, params[])
 {
-	new Float:rotate;
-	sscanf(params, "f", rotate);
-	SetObjectRot(art, 0,0,rotate);
+	// 25 - MIN
+	// -30 - MAX
+	new Float:rx, Float:ry, Float:rz;
+	sscanf(params, "fff", rx, ry, rz);
+	SetObjectRot(art, rx,ry,rz);
+	SetObjectRot(shot, rx,ry,rz);
 	return 1;
 }
 

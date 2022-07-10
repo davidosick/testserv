@@ -239,3 +239,791 @@ Console input: gmx
 [14:28:22] ----------------------------------
 
 [14:28:22] Number of vehicle models: 0
+Console input: gmx
+[14:32:52] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:32:52] 
+----------------------------------
+[14:32:52]   Bare Script MYEDIT 2
+
+[14:32:52] ----------------------------------
+
+[14:32:52] Number of vehicle models: 0
+Console input: gmx
+[14:36:24] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:36:24] 
+----------------------------------
+[14:36:24]   Bare Script MYEDIT 2
+
+[14:36:24] ----------------------------------
+
+[14:36:24] Number of vehicle models: 0
+Console input: gmx
+[14:43:36] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:43:36] 
+----------------------------------
+[14:43:36]   Bare Script MYEDIT 2
+
+[14:43:36] ----------------------------------
+
+[14:43:36] Number of vehicle models: 0
+Console input: gmx
+Console input: gmx
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:44:10] filterscripts = ""  (string)
+[14:44:10] 
+[14:44:10] Server Plugins
+[14:44:10] --------------
+[14:44:10]  Loading plugin: pawncmd
+[14:44:10] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[14:44:10]   Loaded.
+[14:44:10]  Loading plugin: sscanf
+[14:44:10] 
+
+[14:44:10]  ===============================
+
+[14:44:10]       sscanf plugin loaded.     
+
+[14:44:10]         Version:  2.11.4        
+
+[14:44:10]    (c) 2022 Alex "Y_Less" Cole  
+
+[14:44:10]  ===============================
+
+[14:44:10]   Loaded.
+[14:44:10]  Loaded 2 plugins.
+
+[14:44:10] 
+[14:44:10] Filterscripts
+[14:44:10] ---------------
+[14:44:10]   Loaded 0 filterscripts.
+
+[14:44:10] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:44:10] 
+----------------------------------
+[14:44:10]   Bare Script MYEDIT 2
+
+[14:44:10] ----------------------------------
+
+[14:44:10] Number of vehicle models: 0
+[14:44:21] [connection] 127.0.0.1:61844 requests connection cookie.
+[14:44:22] [connection] incoming connection: 127.0.0.1:61844 id: 0
+[14:44:23] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:51:24] filterscripts = ""  (string)
+[14:51:24] 
+[14:51:24] Server Plugins
+[14:51:24] --------------
+[14:51:24]  Loading plugin: pawncmd
+[14:51:24] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[14:51:24]   Loaded.
+[14:51:24]  Loading plugin: sscanf
+[14:51:24] 
+
+[14:51:24]  ===============================
+
+[14:51:24]       sscanf plugin loaded.     
+
+[14:51:24]         Version:  2.11.4        
+
+[14:51:24]    (c) 2022 Alex "Y_Less" Cole  
+
+[14:51:24]  ===============================
+
+[14:51:24]   Loaded.
+[14:51:24]  Loaded 2 plugins.
+
+[14:51:24] 
+[14:51:24] Filterscripts
+[14:51:24] ---------------
+[14:51:24]   Loaded 0 filterscripts.
+
+[14:51:24] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:51:24] 
+----------------------------------
+[14:51:24]   Bare Script MYEDIT 2
+
+[14:51:24] ----------------------------------
+
+[14:51:24] Number of vehicle models: 0
+[14:51:42] [connection] 127.0.0.1:57358 requests connection cookie.
+[14:51:43] [connection] incoming connection: 127.0.0.1:57358 id: 0
+[14:51:43] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:06:22] filterscripts = ""  (string)
+[15:06:22] 
+[15:06:22] Server Plugins
+[15:06:22] --------------
+[15:06:22]  Loading plugin: pawncmd
+[15:06:22] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[15:06:22]   Loaded.
+[15:06:22]  Loading plugin: sscanf
+[15:06:22] 
+
+[15:06:22]  ===============================
+
+[15:06:22]       sscanf plugin loaded.     
+
+[15:06:22]         Version:  2.11.4        
+
+[15:06:22]    (c) 2022 Alex "Y_Less" Cole  
+
+[15:06:22]  ===============================
+
+[15:06:22]   Loaded.
+[15:06:22]  Loaded 2 plugins.
+
+[15:06:22] 
+[15:06:22] Filterscripts
+[15:06:22] ---------------
+[15:06:22]   Loaded 0 filterscripts.
+
+[15:06:22] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[15:06:22] 
+----------------------------------
+[15:06:22]   Bare Script MYEDIT 2
+
+[15:06:22] ----------------------------------
+
+[15:06:22] Number of vehicle models: 0
+[15:06:30] [connection] 127.0.0.1:57446 requests connection cookie.
+[15:06:31] [connection] incoming connection: 127.0.0.1:57446 id: 0
+[15:06:32] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:13:38] filterscripts = ""  (string)
+[15:13:38] 
+[15:13:38] Server Plugins
+[15:13:38] --------------
+[15:13:38]  Loading plugin: pawncmd
+[15:13:38] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[15:13:38]   Loaded.
+[15:13:38]  Loading plugin: sscanf
+[15:13:38] 
+
+[15:13:38]  ===============================
+
+[15:13:38]       sscanf plugin loaded.     
+
+[15:13:38]         Version:  2.11.4        
+
+[15:13:38]    (c) 2022 Alex "Y_Less" Cole  
+
+[15:13:38]  ===============================
+
+[15:13:38]   Loaded.
+[15:13:38]  Loaded 2 plugins.
+
+[15:13:38] 
+[15:13:38] Filterscripts
+[15:13:38] ---------------
+[15:13:38]   Loaded 0 filterscripts.
+
+[15:13:38] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[15:13:38] 
+----------------------------------
+[15:13:38]   Bare Script MYEDIT 2
+
+[15:13:38] ----------------------------------
+
+[15:13:38] Number of vehicle models: 0
+[15:13:49] [connection] 127.0.0.1:61160 requests connection cookie.
+[15:13:50] [connection] incoming connection: 127.0.0.1:61160 id: 0
+[15:13:50] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:18:39] filterscripts = ""  (string)
+[15:18:39] 
+[15:18:39] Server Plugins
+[15:18:39] --------------
+[15:18:39]  Loading plugin: pawncmd
+[15:18:39] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[15:18:39]   Loaded.
+[15:18:39]  Loading plugin: sscanf
+[15:18:39] 
+
+[15:18:39]  ===============================
+
+[15:18:39]       sscanf plugin loaded.     
+
+[15:18:39]         Version:  2.11.4        
+
+[15:18:39]    (c) 2022 Alex "Y_Less" Cole  
+
+[15:18:39]  ===============================
+
+[15:18:39]   Loaded.
+[15:18:39]  Loaded 2 plugins.
+
+[15:18:39] 
+[15:18:39] Filterscripts
+[15:18:39] ---------------
+[15:18:39]   Loaded 0 filterscripts.
+
+[15:18:39] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[15:18:39] 
+----------------------------------
+[15:18:39]   Bare Script MYEDIT 2
+
+[15:18:39] ----------------------------------
+
+[15:18:39] Number of vehicle models: 0
+[15:18:49] [connection] 127.0.0.1:64933 requests connection cookie.
+[15:18:50] [connection] incoming connection: 127.0.0.1:64933 id: 0
+[15:18:50] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+Console input: gmx
+[15:21:45] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[15:21:45] 
+----------------------------------
+[15:21:45]   Bare Script MYEDIT 2
+
+[15:21:45] ----------------------------------
+
+[15:21:45] Number of vehicle models: 0
+Console input: gmx
+[16:26:27] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[16:26:27] 
+----------------------------------
+[16:26:27]   Bare Script MYEDIT 2
+
+[16:26:27] ----------------------------------
+
+[16:26:27] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:34:20] filterscripts = ""  (string)
+[16:34:20] 
+[16:34:20] Server Plugins
+[16:34:20] --------------
+[16:34:20]  Loading plugin: pawncmd
+[16:34:20] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[16:34:20]   Loaded.
+[16:34:20]  Loading plugin: sscanf
+[16:34:20] 
+
+[16:34:20]  ===============================
+
+[16:34:20]       sscanf plugin loaded.     
+
+[16:34:20]         Version:  2.11.4        
+
+[16:34:20]    (c) 2022 Alex "Y_Less" Cole  
+
+[16:34:20]  ===============================
+
+[16:34:20]   Loaded.
+[16:34:20]  Loaded 2 plugins.
+
+[16:34:20] 
+[16:34:20] Filterscripts
+[16:34:20] ---------------
+[16:34:20]   Loaded 0 filterscripts.
+
+[16:34:20] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[16:34:20] 
+----------------------------------
+[16:34:20]   Bare Script MYEDIT 2
+
+[16:34:20] ----------------------------------
+
+[16:34:20] Number of vehicle models: 0
+[16:34:36] [connection] 127.0.0.1:60024 requests connection cookie.
+[16:34:37] [connection] incoming connection: 127.0.0.1:60024 id: 0
+[16:34:37] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+Console input: gmx
+[17:23:19] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:23:19] 
+----------------------------------
+[17:23:19]   Bare Script MYEDIT 2
+
+[17:23:19] ----------------------------------
+
+[17:23:19] Number of vehicle models: 0
+Console input: gmx
+[17:24:29] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:24:29] 
+----------------------------------
+[17:24:29]   Bare Script MYEDIT 2
+
+[17:24:29] ----------------------------------
+
+[17:24:29] Number of vehicle models: 0
+Console input: gmx
+[17:27:27] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:27:27] 
+----------------------------------
+[17:27:27]   Bare Script MYEDIT 2
+
+[17:27:27] ----------------------------------
+
+[17:27:27] Number of vehicle models: 0
+Console input: gmx
+[17:29:30] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:29:30] 
+----------------------------------
+[17:29:30]   Bare Script MYEDIT 2
+
+[17:29:30] ----------------------------------
+
+[17:29:30] Number of vehicle models: 0
+Console input: gmx
+[17:35:14] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:35:14] 
+----------------------------------
+[17:35:14]   Bare Script MYEDIT 2
+
+[17:35:14] ----------------------------------
+
+[17:35:14] Number of vehicle models: 0
+Console input: gmx
+[17:43:15] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[17:43:15] 
+----------------------------------
+[17:43:15]   Bare Script MYEDIT 2
+
+[17:43:15] ----------------------------------
+
+[17:43:15] Number of vehicle models: 0
+Console input: gmx
+[18:11:35] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[18:11:35] 
+----------------------------------
+[18:11:35]   Bare Script MYEDIT 2
+
+[18:11:35] ----------------------------------
+
+[18:11:35] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:58:35] filterscripts = ""  (string)
+[18:58:35] 
+[18:58:35] Server Plugins
+[18:58:35] --------------
+[18:58:35]  Loading plugin: pawncmd
+[18:58:35] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[18:58:35]   Loaded.
+[18:58:35]  Loading plugin: sscanf
+[18:58:35] 
+
+[18:58:35]  ===============================
+
+[18:58:35]       sscanf plugin loaded.     
+
+[18:58:35]         Version:  2.11.4        
+
+[18:58:35]    (c) 2022 Alex "Y_Less" Cole  
+
+[18:58:35]  ===============================
+
+[18:58:35]   Loaded.
+[18:58:35]  Loaded 2 plugins.
+
+[18:58:35] 
+[18:58:35] Filterscripts
+[18:58:35] ---------------
+[18:58:35]   Loaded 0 filterscripts.
+
+[18:58:35] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[18:58:35] 
+----------------------------------
+[18:58:35]   Bare Script MYEDIT 2
+
+[18:58:35] ----------------------------------
+
+[18:58:35] Number of vehicle models: 0
+[18:58:46] [connection] 127.0.0.1:49226 requests connection cookie.
+[18:58:47] [connection] incoming connection: 127.0.0.1:49226 id: 0
+[18:58:48] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:59:45] filterscripts = ""  (string)
+[18:59:45] 
+[18:59:45] Server Plugins
+[18:59:45] --------------
+[18:59:45]  Loading plugin: pawncmd
+[18:59:45] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[18:59:45]   Loaded.
+[18:59:45]  Loading plugin: sscanf
+[18:59:45] 
+
+[18:59:45]  ===============================
+
+[18:59:45]       sscanf plugin loaded.     
+
+[18:59:45]         Version:  2.11.4        
+
+[18:59:45]    (c) 2022 Alex "Y_Less" Cole  
+
+[18:59:45]  ===============================
+
+[18:59:45]   Loaded.
+[18:59:45]  Loaded 2 plugins.
+
+[18:59:45] 
+[18:59:45] Filterscripts
+[18:59:45] ---------------
+[18:59:45]   Loaded 0 filterscripts.
+
+[18:59:45] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[18:59:45] 
+----------------------------------
+[18:59:45]   Bare Script MYEDIT 2
+
+[18:59:45] ----------------------------------
+
+[18:59:45] Number of vehicle models: 0
+[19:00:00] [connection] 127.0.0.1:54991 requests connection cookie.
+[19:00:01] [connection] incoming connection: 127.0.0.1:54991 id: 0
+[19:00:02] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:02:38] filterscripts = ""  (string)
+[19:02:38] 
+[19:02:38] Server Plugins
+[19:02:38] --------------
+[19:02:38]  Loading plugin: pawncmd
+[19:02:38] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[19:02:38]   Loaded.
+[19:02:38]  Loading plugin: sscanf
+[19:02:38] 
+
+[19:02:38]  ===============================
+
+[19:02:38]       sscanf plugin loaded.     
+
+[19:02:38]         Version:  2.11.4        
+
+[19:02:38]    (c) 2022 Alex "Y_Less" Cole  
+
+[19:02:38]  ===============================
+
+[19:02:38]   Loaded.
+[19:02:38]  Loaded 2 plugins.
+
+[19:02:38] 
+[19:02:38] Filterscripts
+[19:02:38] ---------------
+[19:02:38]   Loaded 0 filterscripts.
+
+[19:02:38] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[19:02:38] 
+----------------------------------
+[19:02:38]   Bare Script MYEDIT 2
+
+[19:02:38] ----------------------------------
+
+[19:02:38] Number of vehicle models: 0
+Console input: gmx
+[19:03:48] [connection] 127.0.0.1:60922 requests connection cookie.
+[19:03:49] [connection] incoming connection: 127.0.0.1:60922 id: 0
+[19:03:50] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+[19:03:57] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[19:03:57] 
+----------------------------------
+[19:03:57]   Bare Script MYEDIT 2
+
+[19:03:57] ----------------------------------
+
+[19:03:57] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:04:36] filterscripts = ""  (string)
+[19:04:36] 
+[19:04:36] Server Plugins
+[19:04:36] --------------
+[19:04:36]  Loading plugin: pawncmd
+[19:04:36] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[19:04:36]   Loaded.
+[19:04:36]  Loading plugin: sscanf
+[19:04:36] 
+
+[19:04:36]  ===============================
+
+[19:04:36]       sscanf plugin loaded.     
+
+[19:04:36]         Version:  2.11.4        
+
+[19:04:36]    (c) 2022 Alex "Y_Less" Cole  
+
+[19:04:36]  ===============================
+
+[19:04:36]   Loaded.
+[19:04:36]  Loaded 2 plugins.
+
+[19:04:36] 
+[19:04:36] Filterscripts
+[19:04:36] ---------------
+[19:04:36]   Loaded 0 filterscripts.
+
+[19:04:36] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[19:04:36] 
+----------------------------------
+[19:04:36]   Bare Script MYEDIT 2
+
+[19:04:36] ----------------------------------
+
+[19:04:36] Number of vehicle models: 0
+[19:04:47] [connection] 127.0.0.1:57550 requests connection cookie.
+[19:04:48] [connection] incoming connection: 127.0.0.1:57550 id: 0
+[19:04:48] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:05:41] filterscripts = ""  (string)
+[19:05:41] 
+[19:05:41] Server Plugins
+[19:05:41] --------------
+[19:05:41]  Loading plugin: pawncmd
+[19:05:41] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[19:05:41]   Loaded.
+[19:05:41]  Loading plugin: sscanf
+[19:05:41] 
+
+[19:05:41]  ===============================
+
+[19:05:41]       sscanf plugin loaded.     
+
+[19:05:41]         Version:  2.11.4        
+
+[19:05:41]    (c) 2022 Alex "Y_Less" Cole  
+
+[19:05:41]  ===============================
+
+[19:05:41]   Loaded.
+[19:05:41]  Loaded 2 plugins.
+
+[19:05:41] 
+[19:05:41] Filterscripts
+[19:05:41] ---------------
+[19:05:41]   Loaded 0 filterscripts.
+
+[19:05:41] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[19:05:41] 
+----------------------------------
+[19:05:41]   Bare Script MYEDIT 2
+
+[19:05:41] ----------------------------------
+
+[19:05:41] Number of vehicle models: 0
+[19:06:53] [connection] 127.0.0.1:54477 requests connection cookie.
+[19:06:54] [connection] incoming connection: 127.0.0.1:54477 id: 0
+[19:06:54] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:09:01] filterscripts = ""  (string)
+[19:09:01] 
+[19:09:01] Server Plugins
+[19:09:01] --------------
+[19:09:01]  Loading plugin: pawncmd
+[19:09:01] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[19:09:01]   Loaded.
+[19:09:01]  Loading plugin: sscanf
+[19:09:01] 
+
+[19:09:01]  ===============================
+
+[19:09:01]       sscanf plugin loaded.     
+
+[19:09:01]         Version:  2.11.4        
+
+[19:09:01]    (c) 2022 Alex "Y_Less" Cole  
+
+[19:09:01]  ===============================
+
+[19:09:01]   Loaded.
+[19:09:01]  Loaded 2 plugins.
+
+[19:09:01] 
+[19:09:01] Filterscripts
+[19:09:01] ---------------
+[19:09:01]   Loaded 0 filterscripts.
+
+[19:09:01] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[19:09:01] 
+----------------------------------
+[19:09:01]   Bare Script MYEDIT 2
+
+[19:09:01] ----------------------------------
+
+[19:09:01] Number of vehicle models: 0
+[19:09:19] [connection] 127.0.0.1:57859 requests connection cookie.
+[19:09:20] [connection] incoming connection: 127.0.0.1:57859 id: 0
+[19:09:20] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:10:33] filterscripts = ""  (string)
+[19:10:33] 
+[19:10:33] Server Plugins
+[19:10:33] --------------
+[19:10:33]  Loading plugin: pawncmd
+[19:10:33] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[19:10:33]   Loaded.
+[19:10:33]  Loading plugin: sscanf
+[19:10:33] 
+
+[19:10:33]  ===============================
+
+[19:10:33]       sscanf plugin loaded.     
+
+[19:10:33]         Version:  2.11.4        
+
+[19:10:33]    (c) 2022 Alex "Y_Less" Cole  
+
+[19:10:33]  ===============================
+
+[19:10:33]   Loaded.
+[19:10:33]  Loaded 2 plugins.
+
+[19:10:33] 
+[19:10:33] Filterscripts
+[19:10:33] ---------------
+[19:10:33]   Loaded 0 filterscripts.
+
+[19:10:33] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[19:10:33] 
+----------------------------------
+[19:10:33]   Bare Script MYEDIT 2
+
+[19:10:33] ----------------------------------
+
+[19:10:33] Number of vehicle models: 0
+[19:10:53] [connection] 127.0.0.1:53592 requests connection cookie.
+[19:10:54] [connection] incoming connection: 127.0.0.1:53592 id: 0
+[19:10:54] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:13:41] filterscripts = ""  (string)
+[19:13:41] 
+[19:13:41] Server Plugins
+[19:13:41] --------------
+[19:13:41]  Loading plugin: pawncmd
+[19:13:41] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[19:13:41]   Loaded.
+[19:13:41]  Loading plugin: sscanf
+[19:13:41] 
+
+[19:13:41]  ===============================
+
+[19:13:41]       sscanf plugin loaded.     
+
+[19:13:41]         Version:  2.11.4        
+
+[19:13:41]    (c) 2022 Alex "Y_Less" Cole  
+
+[19:13:41]  ===============================
+
+[19:13:41]   Loaded.
+[19:13:41]  Loaded 2 plugins.
+
+[19:13:41] 
+[19:13:41] Filterscripts
+[19:13:41] ---------------
+[19:13:41]   Loaded 0 filterscripts.
+
+[19:13:41] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[19:13:41] 
+----------------------------------
+[19:13:41]   Bare Script MYEDIT 2
+
+[19:13:41] ----------------------------------
+
+[19:13:41] Number of vehicle models: 0
