@@ -91,3 +91,151 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [00:21:23] [connection] incoming connection: 127.0.0.1:63209 id: 0
 [00:21:23] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
 [00:30:36] [part] CTPEJlKOB has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:31:44] filterscripts = ""  (string)
+[13:31:44] 
+[13:31:44] Server Plugins
+[13:31:44] --------------
+[13:31:44]  Loading plugin: pawncmd
+[13:31:44] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[13:31:44]   Loaded.
+[13:31:44]  Loaded 1 plugins.
+
+[13:31:44] 
+[13:31:44] Filterscripts
+[13:31:44] ---------------
+[13:31:44]   Loaded 0 filterscripts.
+
+[13:31:44] [Pawn.CMD] DoAmxLoad: Mismatch between the plugin (332) and include (197382) versions
+[13:31:44] Script[gamemodes/bare.amx]: Run time error 19: "File or function is not found"
+[13:31:44] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:33:56] filterscripts = ""  (string)
+[13:33:56] 
+[13:33:56] Server Plugins
+[13:33:56] --------------
+[13:33:56]  Loading plugin: pawncmd
+[13:33:56] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[13:33:56]   Loaded.
+[13:33:56]  Loaded 1 plugins.
+
+[13:33:56] 
+[13:33:56] Filterscripts
+[13:33:56] ---------------
+[13:33:56]   Loaded 0 filterscripts.
+
+[13:33:56] Script[gamemodes/bare.amx]: Run time error 19: "File or function is not found"
+[13:33:56] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:34:59] filterscripts = ""  (string)
+[13:34:59] 
+[13:34:59] Server Plugins
+[13:34:59] --------------
+[13:34:59]  Loading plugin: pawncmd
+[13:34:59] [Pawn.CMD] plugin v3.3.2 by urShadow loaded
+[13:34:59]   Loaded.
+[13:34:59]  Loading plugin: sscanf
+[13:34:59] 
+
+[13:34:59]  ===============================
+
+[13:34:59]       sscanf plugin loaded.     
+
+[13:34:59]         Version:  2.11.4        
+
+[13:34:59]    (c) 2022 Alex "Y_Less" Cole  
+
+[13:34:59]  ===============================
+
+[13:34:59]   Loaded.
+[13:34:59]  Loaded 2 plugins.
+
+[13:34:59] 
+[13:34:59] Filterscripts
+[13:34:59] ---------------
+[13:34:59]   Loaded 0 filterscripts.
+
+[13:34:59] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[13:34:59] 
+----------------------------------
+[13:34:59]   Bare Script MYEDIT 2
+
+[13:34:59] ----------------------------------
+
+[13:34:59] Number of vehicle models: 0
+[13:35:49] [connection] 127.0.0.1:58430 requests connection cookie.
+[13:35:50] [connection] incoming connection: 127.0.0.1:58430 id: 0
+[13:35:50] [join] CTPEJlKOB has joined the server (0:127.0.0.1)
+Console input: gmx
+[14:01:12] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:01:12] 
+----------------------------------
+[14:01:12]   Bare Script MYEDIT 2
+
+[14:01:12] ----------------------------------
+
+[14:01:12] Number of vehicle models: 0
+Console input: gmx
+[14:19:23] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:19:23] 
+----------------------------------
+[14:19:23]   Bare Script MYEDIT 2
+
+[14:19:23] ----------------------------------
+
+[14:19:23] Number of vehicle models: 0
+[14:24:28] [Pawn.CMD] ToLower: bad conversion
+Console input: gnx
+Console input: gmx
+[14:24:49] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:24:49] 
+----------------------------------
+[14:24:49]   Bare Script MYEDIT 2
+
+[14:24:49] ----------------------------------
+
+[14:24:49] Number of vehicle models: 0
+Console input: gnx
+Console input: gmx
+[14:26:33] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:26:33] 
+----------------------------------
+[14:26:33]   Bare Script MYEDIT 2
+
+[14:26:33] ----------------------------------
+
+[14:26:33] Number of vehicle models: 0
+Console input: gmc
+Console input: gmx
+[14:28:22] AllowAdminTeleport() : function is deprecated. Please see OnPlayerClickMap()
+[14:28:22] 
+----------------------------------
+[14:28:22]   Bare Script MYEDIT 2
+
+[14:28:22] ----------------------------------
+
+[14:28:22] Number of vehicle models: 0

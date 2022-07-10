@@ -14,6 +14,8 @@ main()
 	print("----------------------------------\n");
 }
 
+new art = -1;
+
 public OnPlayerConnect(playerid)
 {
 	GameTextForPlayer(playerid,"~w~SA-MP: ~r~Bare Script",5000,5);
@@ -22,7 +24,36 @@ public OnPlayerConnect(playerid)
 
 CMD:test(playerid)
 {
-	SendClientMessage(playerid, -1, "пїЅпїЅпїЅпїЅпїЅпїЅ!");
+	if(art != -1) return SendClientMessage(playerid, -1, "Арта уже есть");
+	new Float:x,Float:y,Float:z,Float:fa;
+	GetPlayerFacingAngle(playerid,fa);
+	GetPlayerPos(playerid, x,y,z);
+	art = CreateObject(2064, x,y,z,  0, 0, fa);
+	return 1;
+}
+
+CMD:deltest(playerid)
+{
+	DestroyObject(art);
+	art = -1;
+	return 1;
+}
+
+CMD:fire(playerid, params[])
+{
+	new Float:mnCos, Float:mnSin,  Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz;
+	GetObjectRot(art, rx, ry, rz);
+	GetObjectPos(art, x, y, z);
+	if(sscanf(params, "ff", mnCos, mnSin)) return SendClientMessage(playerid, -1, "Неверный ввод");
+	CreateExplosion(x+floatsin(rx)*mnSin,y+floatcos(ry)*mnCos,z, 0, 1);
+	return 1;
+}
+
+CMD:rot(playerid, params[])
+{
+	new Float:rotate;
+	sscanf(params, "f", rotate);
+	SetObjectRot(art, 0,0,rotate);
 	return 1;
 }
 
