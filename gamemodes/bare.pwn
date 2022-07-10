@@ -18,8 +18,11 @@ main()
 	print("----------------------------------\n");
 }
 
-new art = -1, shot, shotDist, Float:shotDist0, Float:z0;
+new art = -1, shot,  Float:shotDist0, Float:shotDist, Float:z0;
 new str[144];
+
+stock Float:GetDistanceBetweenPoints(Float:X, Float:Y, Float:Z, Float:PointX, Float:PointY, Float:PointZ) return floatsqroot(floatadd(floatadd(floatpower(floatsub(X, PointX), 2.0), floatpower(floatsub(Y, PointY), 2.0)), floatpower(floatsub(Z, PointZ), 2.0))); 
+stock Float:GetDistanceBetweenPlayers(playerid, otherplayerid) { new Float:X[2], Float:Y[2], Float:Z[2]; GetPlayerPos(playerid, X[0], Y[0], Z[0]); GetPlayerPos(otherplayerid, X[1], Y[1], Z[1]); return GetDistanceBetweenPoints(X[0], Y[0], Z[0], X[1], Y[1], Z[1]); }
 
 public OnPlayerConnect(playerid)
 {
@@ -71,18 +74,17 @@ CMD:fire(playerid, params[])
 	format(str, 144, "REALROT %f", REALROT);
 	scm(playerid, -1, str);
 	B = floattan(REALROT, degrees) * 2 * speed * speed * floatcos(REALROT, degrees) * floatcos(REALROT, degrees);
-	format(str, 144, "B %f", B);
-	scm(playerid, -1, str);
+	//format(str, 144, "B %f", B);
+	//scm(playerid, -1, str);
 	dist = -((-B-B)/2*A)/100;
-	format(str, 144, "dist %f", dist);
-	scm(playerid, -1, str);
+	//format(str, 144, "dist %f", dist);
+	//scm(playerid, -1, str);
 
-	shotDist = 0;
 	shotDist0 = dist;
 	z0 = z;
-	MoveObject(shot, x-floatsin(-rz,degrees)*3, y-floatcos(-rz,degrees)*3, z+(REALROT/20), 100);
+	new Float:halfdist = dist/2;
+	MoveObject(shot, x-floatsin(-rz,degrees)*(dist/2), y-floatcos(-rz,degrees)*(dist/2), z+(-halfdist*halfdist+shotDist0*halfdist), 10);
 
-	//CreateExplosion(x-floatsin(-rz,degrees)*dist,y-floatcos(-rz,degrees)*dist,z, 0, 1);
 	return 1;
 }
 
@@ -90,18 +92,18 @@ public OnObjectMoved(objectid)
 {
 	if(objectid == shot)
 	{
-		shotDist++;
 		new Float:x, Float:y, Float:z, Float:ry, Float:rx, Float:rz;
 		GetObjectRot(shot, rx, ry, rz);
+		rz = rz+90;
 		GetObjectPos(shot, x, y, z);
-		if(shotDist >= shotDist0)
+		if(shotDist0 == 0)
 		{
 			CreateExplosion(x,y,z, 0, 1);
 			DestroyObject(shot);
 			return 1;
 		}
-		MoveObject(shot, x-floatsin(-rz,degrees)*shotDist, y-floatcos(-rz,degrees)*shotDist, z0+((-shotDist*shotDist+shotDist0*shotDist)/40), 3);
-		SetPlayerPos(0, x-floatsin(-rz,degrees)*shotDist, y-floatcos(-rz,degrees)*shotDist, z0+((-shotDist*shotDist+shotDist0*shotDist)/40));
+		MoveObject(shot, x-floatsin(-rz,degrees)*shotDist0, y-floatcos(-rz,degrees)*shotDist0, z0, 10);
+		shotDist0 = 0;
 	}
 	return 1;
 }
