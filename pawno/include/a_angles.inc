@@ -28,6 +28,23 @@ stock IsPlayerBehindPlayer(playerid, targetid, Float:dOffset)
 
 }
 
+stock Float:GetXAngleBetweenPoints(Float:x, Float:y, Float:z, Float:vX, Float:vY, Float:vZ, Float:rz)
+{
+	new Float:vec1X, Float:vec1Y, Float:vec1Z;
+	new Float:vec2X, Float:vec2Y, Float:vec2Z;
+	new Float:angX;
+	new Float:nX, Float:nY, Float:nZ;
+	nX = x+floatsin(-rz,degrees);
+	nY = y+floatcos(-rz,degrees);
+	//nZ = z;
+	
+	vec1X = nX-x; vec1Y = nY-y; vec1Z = nZ-z;
+	vec2X = vX-x; vec2Y = vY-y; vec2Z = vZ-z;
+
+	angX = asin( floatabs(vec1X*vec2X + vec1Y*vec2Y + vec1Z*vec2Z) / (floatsqroot(vec1X*vec1X + vec1Y*vec1Y + vec1Z*vec1Z) * floatsqroot(vec2X*vec2X + vec2Y*vec2Y + vec2Z*vec2Z)));
+	return angX;
+}
+
 stock Float:GetAngleBetweenPoints(Float:x, Float:y, Float:pX, Float:pY)
 {
 
